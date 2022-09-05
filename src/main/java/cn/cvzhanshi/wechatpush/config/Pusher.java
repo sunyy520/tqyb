@@ -33,7 +33,8 @@ public class Pusher {
         wxMpService.setWxMpConfigStorage(wxStorage);
         //2,推送消息
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
-                .toUser("o7AUU5wnGWYKooMs-5vvwKBrDhFk")
+//                 .toUser("o7AUU5wnGWYKooMs-5vvwKBrDhFk")
+            .toUser("o7AUU50CJva6ZQOfvWgGFtR9zmnU")
                 .templateId("XAinrsf0RwrfpghYoUzIVNM-eJzWUx_YJmAaXVZrQaI")
                 .build();
         //3,如果是正式版发送模版消息，这里需要配置你的信息
