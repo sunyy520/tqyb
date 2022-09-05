@@ -25,3 +25,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Send
+      run: sudo java -jar ./target/wechatpush-0.0.1-SNAPSHOT.jar
